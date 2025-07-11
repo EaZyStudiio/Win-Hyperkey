@@ -2,22 +2,27 @@
 
 ![Hyperkey boom2](https://github.com/user-attachments/assets/957f22dc-c990-4216-a3ac-48b60db3394c)
 
-One of the few features I missed from the poweruser macOS world is my hyperkey solution . It allows users to litterary create a new modifier key "an extremaly easy one at that". Windows on the other hand, does not have good 3rd party solutions "well AHK but... I litterary got that just to make this fuctionality 😓 & am litterary known as a poweruser" anyways this handy new feature/additon is here! and almost done the right way...
+As a power user who has spent time in the macOS world, one of the features I've missed most is a proper hyperkey. For those unfamiliar, it lets you create a brand new modifier-key an incredibly convenient one at that. While Windows has some third-party options (yes, I'm looking at you, AutoHotkey, which I installed literally just for this)), Remappers never felt quite right. That's why I'm excited to introduce my own solution using AHK as a base.
 
+This project was born out of a desire for a hyperkey that integrates perfectly without compromises. and to point out a flaw in current remappers "timers, ability to stop a key like tab from making continuous presses on hold etc are needed sometimes..."
 
-I am aware that several not really built for a hyperkey alternatives, available on the Internet but I still decided to craft another one by myself.
+### ✅ What You Get:
+  - A new modifier key! Simply hold Caps Lock and press any other key on your keyboard. (Note: Function keys like F1, F2, etc., are not yet supported, but a fix is coming soon!)
+  - Crucially, you don't lose your standard Caps Lock functionality. Tap it or hold it, "doesn't matter really just use it as you always do 🥳"
+  - holding CAPSLOCK & any other key will be a new HOTKEY!
 
- ### ✅ What You Get:
-  - A new modifer key just hold capslock and any other key on the keyboard (fuction buttons F1, F2, not supporte currently I'll fix that soon)
-  - IMPORTANTLY never lose your capslock fuctionality, CAPSLOCK still function as it should if you press it or hold it "doesn't matter really just use it as you always do 🥳"
+### 🔰 What's Next
 
-### 🔰 Coming soon
-
-  - Update to use right hand side CTRL, SHIFT, ALT to trigger the Hyperkey this will allow for even more powerful combinations
+  - Right-Hand Modifiers: An update to allow the right-side CTRL, SHIFT, and ALT keys to trigger the Hyperkey for even more powerful combinations.
   - GUI
-    - Allows for mapping new keys (F1, F2, F16 or even unknown keys)
-    - Toggle for cords (stuff like volumes)
-    - Toogle for exact matches
+    - Allows for mapping new keys (F1, F2, F16 and More)
+    - Toggle for chords (for actions like volume control).
+    - Toogle for Exact matches
+   
+### MAYBE's
+ - Application-Specific Hotkeys: Different keymaps for different apps. (if used incombination with a remmaper this is useless)
+ - Key Sequences / Macros: Triggering actions with a sequence of keys (e.g., Hyper -> G -> C). (decent idea)
+ - Import/Export Profiles: Share your custom keymaps with others. (Donno if viable with AHK)
 
 
 
@@ -25,4 +30,4 @@ I am aware that several not really built for a hyperkey alternatives, available 
   - The entire implementation without loseing CAPSLOCK means in some "minority" softwares you can't create the hotkey you want using capslock and modifierkey
     - just to be clear this works with almost all software current culplrit is Powertoys
   - Since it is combining multiple keyboard modifier keys together you can't really use it in conjunction with other modifier key
-    - (SOLUTION) combine from the right side insted 
+    - (WORKAROUND) This will be addressed by the planned update to use right-side modifiers instead.
