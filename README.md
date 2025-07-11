@@ -13,7 +13,8 @@ This project was born out of a desire for a hyperkey that integrates perfectly w
 
 ### 🔰 What's Next
 
-  - Right-Hand Modifiers: An update to allow the right-side CTRL, SHIFT, and ALT keys to trigger the Hyperkey for even more powerful combinations.
+  - Right-Hand Modifiers: An update to allow the right-side CTRL, SHIFT, and ALT keys to trigger the Hyperkey
+    - this allows you for even more powerful combinations, like HYPERKEY + SHIFT or ALT, Hyperkey, + W etc. 
   - GUI
     - Allows for mapping new keys (F1, F2, F16 and More)
     - Toggle for chords (for actions like volume control).
