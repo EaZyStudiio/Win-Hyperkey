@@ -30,7 +30,7 @@ This project was born out of a desire for a hyperkey that integrates perfectly w
     - just to be clear this works with almost all software current culplrit is Powertoys
   - Since it is combining multiple keyboard modifier keys together you can't really use it in conjunction with other modifier key
     - (WORKAROUND) This will be addressed by the planned update to use right-side modifiers instead.
-
+---
 # Installation:
 
 For the EXE Version (.exe)
